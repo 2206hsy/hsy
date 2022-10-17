@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/public全.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body class="reg_body">
+		<!-- <div class="layerMask"></div> -->
+		<div class="main">
+			<form action="">
+				<table class="regtab" style="margin-top: 40px;">
+					<tr valign="center" align="center">
+						<td colspan="3" height="160px">
+							<a href="index.html">
+								<img class="logo-bg" src="picture/loogoo.png" alt="">
+							</a>
+						</td>
+					</tr>
+
+					<tr valign="middle" height="50px">
+						<th width="56px" class="regLabel" align="left">手机号</th>
+						<td width="270px" align="left">
+							<input type="text" class="regInpt user" placeholder="请输入手机号">
+							<span class="msg user-msg"></span>
+						</td>
+					</tr>
+
+					<tr valign="middle" height="50px">
+						<th width="56px" class="regLabel" align="left">验证码</th>
+						<td width="270px" align="left">
+							<input type="text" class="regcode" placeholder="输入验证码">
+							<span class="yzm-msg"></span>
+							<!-- <img class="auth" src="images/authcode.png" alt=""> -->
+						</td>
+						<td align="left">
+							<i><span class="auth">H7T8</span></i>
+							<a href="javascript:getHyz();" class="nextcode">看不清，换一张</a><br>
+						</td>
+					</tr>
+
+					<!-- 创建密码 -->
+					<tr valign="middle" height="50px">
+						<th width="56px" class="regLabel" align="left">创建密码</th>
+						<td width="270px" align="left">
+							<input type="password" class="regInpt pwd" placeholder="6~20位字符组成，区分大小写">
+							<span class="msg pwd-msg"></span>
+						</td>
+						<!-- <td align="left">
+							<div id="pwdInfo">
+								<div id="pwdString" class="content"></div>
+								<div class="info">
+									<span class="passleft">弱</span>
+									<span>中</span>
+									<span class="passright">强</span>
+								</div>
+							</div>
+						</td> -->
+					</tr>
+
+					<!-- 确认密码 -->
+					<!-- <tr valign="middle" height="50px">
+						<th width="76px" class="regLabel" align="left">确认密码</th>
+						<td width="270px" align="left">
+							<input type="password" class="regInpt qpwd" placeholder="确认密码">
+							<span class="msg qpwd-msg"></span>
+						</td>
+					</tr> -->
+					<tr valign="middle" height="50px">
+						<th width="76px" class="regLabel" align="left"></th>
+						<td>
+							<div class="agree">
+								<input type="checkbox" checked="checked" class="overtrea">同意
+								<a class="vertpos" style="color: #0c79cc;" target="_blank" href="">良仓注册条款</a>
+							</div>
+
+						</td>
+					</tr>
+
+
+					<tr valign="center" align="center">
+						<td width="300px" colspan="2" align="right">
+							<input class="regbtn" disabled type="button" value="立即注册"
+								style="border-radius: 4px;font-weight: normal;">
+							<div class="tiaozhuang">
+								<p><span class="tupian1"><img src="picture/loogoo.png"></span></p>
+								<p class="TZwenzi"></p>
+							</div>
+						</td>
+					</tr>
+
+
+					<tr valign="center" align="center">
+						<th></th>
+						<td width="100px" align="left">
+							<a href="" class="loginApp qqapp"></a>
+							<a href="" class="loginApp wbapp"></a>
+							<a href="" class="loginApp dbapp"></a>
+							<a href="" class="loginApp tqqapp"></a>
+						</td>
+						<td align="left">
+							<a href="login_app.html" class="reg">已有账号，登录</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
+<script src="js/hsy.js"></script>
+<script src="js/register.js"></script>

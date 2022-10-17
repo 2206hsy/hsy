@@ -1,0 +1,230 @@
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 110px;
+	clear: both;
+	_padding-top: 130px;
+}
+
+/* 基本设置 */
+.usetting {
+	width: 1000px;
+	color: #666;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.usetting .nav {
+	width: 1000px;
+	padding: 20px 0px;
+	height: 27px;
+	border-bottom: 1px solid #ccc;
+	font-size: 14px;
+	line-height: 27px;
+	vertical-align: middle;
+}
+
+.usetting .nav a.current {
+	color: #fff;
+	background: url(../images/label_bg79_27.png) no-repeat;
+}
+
+.usetting .nav a.navitem {
+	/* color: #666; */
+	display: inline-block;
+	text-align: center;
+	/* height: 27; */
+	width: 79px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+/* 个人设置 */
+
+.usetting .secNav {
+	width: 1000px;
+	padding: 20px 0px;
+	height: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.usetting .secNav a.first {
+	padding-left: 0px;
+}
+
+.usetting .secNav a.navitem {
+	color: #666;
+	display: inline-block;
+	text-align: center;
+	height: 27;
+	padding: 0px 7px;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.usetting .secNav a.current {
+	color: #7ca8cb;
+}
+
+/* 收货地址管理 */
+.address-title {
+	width: 1000px;
+	line-height: 40px;
+	margin: 30px auto;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	border-bottom: 1px solid #999;
+}
+
+.address-content {
+	width: 1000px;
+	margin: 0px auto 50px;
+}
+
+.list-content {
+	overflow: scroll;
+}
+
+.address-list {
+	width: 3000px;
+	display: flex;
+	height: 220px;
+	/* white-space: nowrap; */
+}
+
+.address-list>li {
+	/* display: inline-block; */
+	width: 230px;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 180px;
+	border: 2px solid #ccc;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.address-list .addressActive {
+	border-color: #7FA6C5;
+}
+
+
+.edit {
+	cursor: pointer;
+	display: flex;
+	flex-wrap: nowrap;
+	/* justify-content: space-between; */
+}
+
+.table {
+	font-size: 14px;
+	color: #999;
+}
+
+.table tr {
+	height: 40px;
+}
+
+.table tr td:first-child {
+	width: 100px;
+}
+
+.table input {
+	width: 150px;
+	height: 24px;
+	border: 2px solid #ccc;
+	outline: none;
+}
+
+.table input:focus {
+	border: 2px solid #7FA6C5;
+}
+
+.table select {
+	width: 154px;
+	height: 28px;
+	border: 2px solid #ccc;
+	outline: none;
+	text-align: center;
+}
+
+.table .detail-adderss {
+	width: 400px;
+}
+
+.table .save-address {
+	padding: 5px 30px;
+	background-color: #7FA6C5;
+	color: white;
+	cursor: pointer;
+	user-select: none;
+}
+
+.address-zy {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.rgt {
+	/* display: flex; */
+	/* text-align: right; */
+	float: right;
+	margin-left: 75px;
+}
+
+/* 保存的地址样式 */
+.addressTabCon {
+	width: 1000px;
+	margin-top: 60px;
+}
+
+.addressTabCon .conTle {
+	width: 1000px;
+	clear: both;
+	padding: 5px 0px;
+	color: #6696b7;
+	font-size: 14px;
+}
+
+.addressTabCon table {
+	width: 100%;
+	color: #666;
+}
+
+.addressTabCon table tr th {
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+	font-size: 13px;
+	border: 1px solid #bbb;
+}
+
+.addressTabCon table tr td {
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+	height: 20px;
+	border: 1px solid #bbb;
+}
+
+.addressTabCon table tr td .blue {
+	color: #6696b7;
+}
+
+.addressTabCon .conNote {
+	width: 1000px;
+	clear: both;
+	padding: 5px 0px;
+	color: #999;
+	font-size: 12px;
+}

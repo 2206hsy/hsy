@@ -1,0 +1,167 @@
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	/* padding-top: 110px; */
+	clear: both;
+}
+
+.shopping {
+	width: 100%;
+	color: #333;
+	vertical-align: middle;
+	padding: 50px 0px 10px 0px;
+	height: 32px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.shopping .item {
+	width: auto;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+}
+
+.shopping .item .chk {
+	color: #6393b4;
+}
+
+.shopping .item .txt {
+	width: 135px;
+	height: 20px;
+	display: block;
+}
+
+/* 商品模板 */
+.cart-title {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	border-bottom: 1px solid #999;
+}
+
+.table {
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.table img {
+	width: 80px;
+	height: 80px;
+	vertical-align: top;
+}
+
+.table th {
+	color: #666;
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom: 1px solid #666;
+}
+
+.table .first-th {
+	text-align: left;
+}
+
+.table td {
+	padding: 10px 0px;
+	font-size: 14px;
+	color: #666;
+	border-bottom: 1px solid #ccc;
+}
+
+.table td:first-child {
+	width: 150px;
+	text-align: left;
+}
+
+.table td:nth-child(2) {
+	width: 300px;
+}
+
+.table span {
+	padding: 0px 8px;
+	user-select: none;
+}
+
+.table .reduce,
+.table .add {
+	font-size: 20px;
+}
+
+.table .del {
+	color: #779CB9;
+}
+
+.price-all {
+	width: 1000px;
+	margin: 30px auto;
+}
+
+
+
+
+
+.cartmei {
+	margin-top: 96px;
+	width: 640px;
+	height: 280px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgb(170, 170, 170) 2px 1px 2px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shoppingV2 {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.shoppingV2 p {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.shoppingV2 p .priceNo {
+	color: #197bc9;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.shoppingV2 p .checkoutBtn {
+	display: inline-block;
+	width: 168px;
+	height: 30px;
+	color: #fff;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: center;
+	background: #7fa6c5;
+	margin-top: 5px;
+	border: none;
+}
+
+.shoppingV2 fieldset {
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	font-size: 14px;
+	color: #404040;
+	width: 60px;
+	padding: 0 54px;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.shoppingV2 fieldset a {
+	color: #404040;
+}

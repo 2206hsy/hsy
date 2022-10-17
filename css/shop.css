@@ -1,0 +1,409 @@
+/* 集体样式 */
+.mian {
+	width: 1000px;
+	/* height: 3000px; */
+	/* background: ghostwhite; */
+	margin: 0px auto;
+	/* padding-top: 110px;s */
+}
+
+/* 商品logo样式 */
+.osm-tle {
+	/* width: 1000px; */
+	margin: 40px 0px;
+	height: 47px;
+	/* background: #000; */
+	background: url(../picture/icon.png) no-repeat center -532px;
+
+
+}
+
+.osm-tle a {
+	display: block;
+	width: 188px;
+	height: 40px;
+	background: url(../picture/icon.png) no-repeat 0px -738px;
+}
+
+/* 大图 */
+.picture {
+	/* width: 1000px; */
+	height: 475px;
+	overflow: hidden;
+	position: relative;
+}
+
+.picture a img {
+	width: 1000px;
+	height: 475px;
+}
+
+/* 商店菜单 */
+.osm-bar {
+	width: 100%;
+	height: 93px;
+	background: #FFF;
+	clear: both;
+	float: left;
+	position: relative;
+	font-size: 13px;
+	margin: 5px 0px 10px 0px;
+}
+
+.osm-cls {
+	border-bottom: 1px solid #ededed;
+	position: relative;
+	float: left;
+	width: 840px;
+}
+
+.osm-cls li {
+	float: left;
+	display: block;
+	/* zoom: 1; */
+	position: relative;
+	padding: 6px 20px 5px 0px;
+	height: 25px;
+	border-bottom: 1px solid #ededed;
+	margin: 10px 0px -1px 0px;
+}
+
+.osm-cls li a.new {
+	background: url(../picture/icon.png) no-repeat;
+	background-position: -173px -584px;
+	text-align: right;
+}
+
+.osm-cls li a {
+	width: 64px;
+	color: #333;
+	text-align: center;
+	display: block;
+	/* zoom: 1; */
+	margin-top: 1px;
+	height: 24px;
+	line-height: 24px;
+	vertical-align: middle;
+}
+
+.osm-price {
+	width: 142px;
+	margin: 10px 0 0;
+	text-align: right;
+	border-bottom: 1px solid #ededed;
+	position: relative;
+	float: right;
+	height: 24px;
+	padding: 7px 18px 5px 0px;
+	cursor: pointer;
+}
+
+.osm-bar .osm-price:hover ul {
+	display: block;
+}
+
+.osm-bar .osm-price ul li a:hover {
+	color: #fff;
+	background: #000;
+}
+
+.osm-price .arrow {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 12px;
+	height: 20px;
+	background: url(../picture/icon.png);
+	background-position: -188px -385px;
+	/* transition: transform 0.3s ease-out; */
+}
+
+.osm-price ul {
+	display: none;
+	position: absolute;
+	z-index: 100000;
+	right: 0px;
+	top: 36px;
+	border: 1px solid #ededed;
+	background: #FFF;
+}
+
+.osm-price ul li a.chk {
+	background: #333;
+	color: #fff;
+}
+
+.osm-price ul li a {
+	display: block;
+	padding: 0px 10px;
+	width: 95px;
+	height: 39px;
+	border-bottom: 1px solid #ededed;
+	line-height: 39px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+/* 店列表 */
+.styl_1 {
+	height: 490px;
+	width: 1000px;
+}
+
+.shopListCon {
+	float: left;
+	margin: 10px 0px;
+	position: relative;
+}
+
+.shopListCon .item {
+	display: block;
+	/* position: absolute; */
+	float: left;
+	z-index: 10;
+}
+
+.styl_1 .li_1 {
+	width: 490px;
+	height: 490px;
+	left: 0px;
+	top: 0px;
+}
+
+.styl_1 .li_2 {
+	width: 235px;
+	height: 235px;
+	left: 510px;
+	top: 0px;
+	margin-left: 20px;
+}
+
+.styl_1 .li_3 {
+	width: 235px;
+	height: 235px;
+	left: 765px;
+	top: 0px;
+	margin-left: 20px;
+}
+
+.styl_1 .li_4 {
+	width: 235px;
+	height: 235px;
+	left: 510px;
+	top: 255px;
+	margin: 20px 0px 0px 20px;
+}
+
+.styl_1 .li_5 {
+	width: 235px;
+	height: 235px;
+	left: 765px;
+	top: 255px;
+	margin: 20px 0px 0px 20px;
+}
+
+.shopListCon .item .imgCon {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.shopListCon .item .imgCon .optCon {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 6px;
+	right: 3px;
+}
+
+.styl_1 .li_1 .imgCon .goodsInfo {
+	width: 460px;
+	height: 460px;
+}
+
+.shopListCon .item .imgCon .goodsInfo {
+	width: 205px;
+	height: 205px;
+	padding: 15px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url(../images/shadow_blk1.png);
+	z-index: 100;
+	/* display: block; */
+	/* _display: inline; */
+	zoom: 1;
+	display: none;
+}
+
+.shopListCon .item .imgCon img {
+	width: 100%;
+	height: 100%;
+}
+
+.styl_1 .li_1 .imgCon .goodsInfo .recInfo {
+	margin-top: 134px;
+	margin-bottom: 30px;
+}
+
+.shopListCon .item .imgCon .goodsInfo .recInfo {
+	font-size: 14px;
+	/* margin-top: 24px; */
+	height: 42px;
+	line-height: 42px;
+	vertical-align: middle;
+	font-weight: 100;
+}
+
+.shopListCon .item .imgCon .goodsInfo .recInfo img {
+	width: 42px;
+	height: 42px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.styl_1 .li_1 .imgCon .goodsInfo p {
+	/* margin-top: 23px; */
+	width: 66%;
+}
+
+.shopListCon .item .imgCon .goodsInfo p {
+	margin: 0px auto;
+	text-align: center;
+	color: #fff;
+	width: 85%;
+	height: 25px;
+	line-height: 20px;
+	vertical-align: middle;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-weight: bold;
+	margin-top: 12px;
+}
+
+.shopListCon .item .imgCon .goodsInfo .money {
+	color: #0c6eba;
+	font-size: 20px;
+	font-style: italic;
+	margin-top: 14px;
+}
+
+.styl_1 .li_1 .imgCon .goodsInfo .tle {
+	margin-top: 23px;
+}
+
+.shopListCon .item .imgCon .goodsInfo .tle {
+	font-size: 14px;
+	/* margin-top: 14px; */
+}
+
+.shopListCon .item .imgCon .goodsInfo .desc {
+	font-size: 12px;
+	font-weight: 100;
+	margin-top: 5px;
+	white-space: normal;
+	height: auto;
+}
+
+/* 所有hover效果 */
+.shopListCon .item:hover .goodsInfo {
+	display: block;
+}
+
+.styl_2 {
+	height: 490px;
+	width: 1000px;
+}
+
+.styl_2 .li_1 {
+	width: 235px;
+	height: 235px;
+	left: 0px;
+	top: 0px;
+	margin-right: 20px;
+}
+
+.styl_2 .li_2 {
+	width: 235px;
+	height: 235px;
+	left: 255px;
+	top: 0px;
+	margin-right: 20px;
+}
+
+.styl_2 .li_3 {
+	width: 490px;
+	height: 490px;
+	left: 510px;
+	top: 0px;
+	float: right;
+}
+
+.styl_2 .li_4 {
+	width: 235px;
+	height: 235px;
+	left: 0px;
+	top: 255px;
+	margin: 20px 20px 0px 0px;
+}
+
+.styl_2 .li_5 {
+	width: 235px;
+	height: 235px;
+	left: 255px;
+	top: 255px;
+	margin: 20px 20px 0px 0px;
+}
+
+.styl_2 .li_3 .imgCon .goodsInfo {
+	width: 460px;
+	height: 355px;
+	padding-top: 120px;
+}
+
+/* MORE的样式 */
+
+.clr {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.osm-more {
+
+	height: 50px;
+	margin: 90px auto 0;
+	width: 148px;
+	clear: both;
+	text-align: center;
+	background: url(../picture/icon.png);
+	background-position: 0 -640px;
+	cursor: pointer;
+	display: block;
+	zoom: 1;
+}
+
+.osm-more:hover {
+	background: url(../picture/icon.png);
+	background-position: 0 -687px;
+}
+
+.clearNull {
+	width: 100%;
+	clear: both;
+	font-size: 0px;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+	line-height: 0px;
+}
+
+.som-more:hover {
+	background-position: 0 -660px;
+}

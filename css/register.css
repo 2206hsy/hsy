@@ -1,0 +1,269 @@
+input {
+	outline: none;
+}
+
+body {
+	/* background: #000000; */
+	position: relative;
+	overflow-y: hidden;
+}
+
+.reg_body {
+	background: #999999;
+	width: 100%;
+	height: 100%;
+}
+
+.layerMask {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: #999999;
+	/* opacity: 0.4; */
+}
+
+.main {
+	/* background-color: pink; */
+	height: 750px;
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 110px;
+	clear: both;
+}
+
+.regtab {
+	width: 565px;
+	border-collapse: separate;
+	border-spacing: 10px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.regtab>tr {
+	/* margin-bottom: 20px; */
+}
+
+.logo-bg {
+	position: relative;
+	left: -33px;
+	margin-bottom: -17px;
+}
+
+.regLabel {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	padding-right: 10px;
+}
+
+.regInpt {
+	width: 300px;
+	height: 50px;
+	border: 0;
+	float: left;
+	line-height: 50px;
+	padding-left: 20px;
+	font-family: 微软雅黑;
+	color: #fff;
+	background-color: #cccccc;
+}
+
+.regcode {
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	opacity: 0.99;
+	border: 0px;
+	height: 50px;
+	line-height: 50px;
+	width: 205px;
+	padding-left: 20px;
+	background-color: #cccccc;
+}
+
+.auth {
+	position: absolute;
+	width: 65px;
+	text-align: center;
+	line-height: 50px;
+	float: right;
+	margin-top: -15px;
+	margin-left: -80px;
+	background: url(../picture/yzm.webp);
+	user-select: none;
+
+}
+
+.yzm-msg {
+	position: absolute;
+	margin-left: 430px;
+	margin-top: -35px;
+}
+
+.nextcode {
+	left: 11px;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+#pwdInfo {
+	width: 127px;
+	height: 28px;
+	position: relative;
+	left: -3px;
+	top: 0;
+}
+
+.content {
+	padding: 0;
+	width: 127px;
+	height: 12px;
+	background: url(../images/pwd_note_bg.png) no-repeat;
+}
+
+.info {
+	width: 127px;
+	height: 16px;
+	font-size: 0px;
+	color: #4c4c4c;
+}
+
+.info span {
+	font-size: 12px;
+	display: inline-block;
+	width: 41px;
+	text-align: center;
+}
+
+.passleft {
+	position: relative;
+	left: -13px;
+}
+
+.passright {
+	position: relative;
+	right: -15px;
+}
+
+.agree {
+	position: relative;
+	left: -4px;
+	top: 3px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.overtrea {
+	position: relative;
+	top: 2px;
+	left: -5px;
+}
+
+.regbtn {
+	cursor: pointer;
+	width: 300px;
+	height: 50px;
+	border: 0;
+	background: #25292e;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 0;
+	position: relative;
+	left: -6px;
+	top: -9px;
+	margin-bottom: 10px;
+}
+
+.tiaozhuang {
+	position: absolute;
+	margin-left: 110px;
+	top: 120px;
+	width: 200px;
+	height: 300px;
+	display: none;
+	text-align: center;
+}
+
+.tiaozhuang>p:first-child {
+	background: #000;
+	width: 300px;
+	height: 60px;
+}
+
+.tiaozhuang>p:last-child {
+	background: #fff;
+	width: 300px;
+	height: 200px;
+	color: #000;
+	font-size: 24px;
+	line-height: 210px;
+	text-align: center;
+	margin-top: -17px;
+}
+
+/* .tupian1 {
+	color: #fff;
+	
+} */
+
+.tupian1>img {
+	width: 124px;
+	height: 60px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+.loginApp {
+	width: 36px;
+	height: 36px;
+	display: inline-block;
+	margin: 0px;
+	position: relative;
+}
+
+.qqapp {
+	background: url(../images/qq-hover.png) no-repeat;
+}
+
+.wbapp {
+	background: url(../images/sine-hover.png) no-repeat;
+}
+
+.dbapp {
+	background: url(../images/doub-hover.png) no-repeat;
+}
+
+.tqqapp {
+	background: url(../images/tencen-sina-hover.png) no-repeat;
+}
+
+.qqapp:hover {
+	background: url(../images/qq_icon_on24_22.png) no-repeat;
+}
+
+.wbapp:hover {
+	background: url(../images/sina_icon_on24_22.png) no-repeat;
+}
+
+.dbapp:hover {
+	background: url(../images/db_icon_on24_22.png) no-repeat;
+}
+
+.tqqapp:hover {
+	background: url(../images/tqq_icon_on24_22.png) no-repeat;
+}
+
+.reg {
+	left: -110px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	top: -12px;
+	right: 6px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #ffffff;
+}
